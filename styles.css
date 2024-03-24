@@ -1,0 +1,63 @@
+
+ body {
+    background: black;
+    padding: 20px;
+    margin : 20px;
+ }
+ .container {
+    display: grid;
+    justify-items:center;
+    position: inline;
+    align-items: inline;
+    background-color:black;
+ }
+ form {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: inline;
+
+ }
+
+ /* Styling the container */
+.container {
+   width: 800px; /* Set width */
+   height: 600px; /* Set height */
+   margin: 20px auto; /* Center the container and provide some margin */
+   background-color: #f0f0f0; /* Background color */
+   padding: 20px; /* Padding inside the container */
+ }
+ 
+ /* Styling for a specific div */
+ .myDiv {
+   color: #333; /* Text color */
+   padding: 10px; /* Padding around the div */
+   width: 400px; /* Width of the div */
+   height: 300px; /* Height of the div */
+   margin: 10px; /* Margin around the div */
+ }
+ 
+ /* Styling for images */
+ img {
+   max-width: 100%; /* Ensure images don't exceed container width */
+   height: auto; /* Maintain aspect ratio */
+   display: block; /* Remove any extra spaces around images */
+   margin: 0 auto; /* Center images */
+ }
+ 
+ /* Styling for videos */
+ video {
+   max-width: 100%; /* Ensure videos don't exceed container width */
+   height: auto; /* Maintain aspect ratio */
+   display: block; /* Remove any extra spaces around videos */
+   margin: 0 auto; /* Center videos */
+ }
+ 
+ /* Styling for audio */
+ audio {
+   width: 100%; /* Occupy full width of the container */
+   display: block; /* Remove any extra spaces around audio */
+   margin: 20px auto; /* Center audio */
+ }
+ 
+ 
