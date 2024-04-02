@@ -13,16 +13,43 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.code-container.animated {
+  animation:slide-in 1s ease;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity:0;
+    transform:translateY(-50PX);
+  }
+  100% {
+    opacity:1;
+    transform:translateY(0);
+  }
+}
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #077f83;
+}
+
+h2 {
+  text-align: center;
+  color:firebrick;
+}
+
+h3{
+  text-align: center;
+  color:firebrick;
 }
 
 p {
-  color: #666;
-  line-height: 1.6;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #300f0f; /* Adjust color as needed */
 }
+
 
 .media {
   margin-top: 20px;
