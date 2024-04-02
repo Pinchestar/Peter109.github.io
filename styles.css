@@ -43,11 +43,16 @@ h3{
   color:firebrick;
 }
 
+h4{
+  text-align: center;
+  color:firebrick;
+}
+
 p {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
-  color: #300f0f; /* Adjust color as needed */
+  color: #581c1c; /* Adjust color as needed */
 }
 
 
